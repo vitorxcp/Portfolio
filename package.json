@@ -1,0 +1,18 @@
+{
+  "name": "vitorxp-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "vitor_xp",
+    "url": "https://vitorxp.squareweb.app"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1"
+  }
+}
