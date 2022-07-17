@@ -13,6 +13,16 @@ app.set("trust proxy", 1);
 app.get("/", function(req, res){
     res.sendFile(__dirname+"/pages/index.html")
 })
+//agora os css:
+app.get("/v2/style/index.css", function(req, res){
+    res.sendFile(__dirname+"/style/index.css")
+})
+app.get("/v2/style/navbar.css", function(req, res){
+    res.sendFile(__dirname+"/style/navbar.css")
+})
+app.get("/v2/style/fonts.css", function(req, res){
+    res.sendFile(__dirname+"/style/fonts.css")
+})
 
 //ok, agora iremos deixar o site no ar:
 app.listen(80, function(){
