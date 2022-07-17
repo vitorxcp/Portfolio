@@ -68,7 +68,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitorxcp/Portfolio.git"
+    "url": "git+https://github.com/vitorxcp/Portfolio"
   },
   "author": {"name": "vitor_xp", "url": "https://vitorxp.squareweb.app"},
   "license": "ISC",
